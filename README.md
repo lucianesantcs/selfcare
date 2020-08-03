@@ -1,4 +1,4 @@
-<h3 align="center">selfcare</h3>
+<h3 align="center"><a href="https://lucianesantcs.github.io/selfcare/">selfcare</a></h3>
 <p align="center">
   Loja online de produtos de beleza
 </p>
