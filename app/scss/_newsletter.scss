@@ -1,0 +1,107 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin-top: 35px;
+  border-top: 1px solid $border;
+  border-bottom: 1px solid $border;
+
+  &-links {
+    a {
+      color: $darkText;
+      font-weight: 700;
+      font-size: 1.3rem;
+    }
+
+    ul li {
+      line-height: 1.5;
+    }
+  }
+
+  &-form {
+    margin: 45px 0 0;
+    display: block;
+  }
+
+  &-input-group {
+    margin-top: 10px;
+    label {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    input,
+    button {
+      width: 100%;
+      max-width: 325px;
+      padding: 15px;
+      border: none;
+      outline: 0;
+      font-weight: 700;
+      font-family: $mainFont;
+      box-sizing: border-box;
+      display: block;
+      border-radius: 5px;
+    }
+
+    input {
+      border: 1px solid $border;
+      margin-bottom: 15px;
+
+      &::placeholder {
+        color: $lightText;
+      }
+    }
+
+    .btn {
+      background-color: $accent;
+      color: $light;
+      cursor: pointer;
+      border: 1px solid $accent;
+    }
+  }
+}
+
+@include breakpoint-up(medium) {
+  .newsletter {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    padding: 25px 30px;
+    margin: 0 auto;
+
+    &-input-group {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      input {
+        float: left;
+        width: 235px;
+        border-width: 1px 0px 1px 1px;
+        border-style: solid;
+        border-color: $border;
+        border-radius: 5px 0px 0px 5px;
+        margin-bottom: 0px;
+      }
+
+      input,
+      button {
+        max-width: 275px;
+        height: 100%;
+      }
+
+      .btn {
+        width: 115px;
+        background-color: $accent;
+        color: $light;
+        cursor: pointer;
+        border-width: 1px 1px 1px 0px;
+        border-radius: 0px 5px 5px 0px;
+        border-style: solid;
+        border-color: $accent;
+      }
+    }
+  }
+}

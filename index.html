@@ -1,115 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- General meta tags needed-->
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Needed for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>SelfCare</title>
+    <!-- Google Fonts-->
     <link
       href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" type="text/css" href="./dist/style.css" />
   </head>
   <body>
     <header class="header">
-      <div class="logo"><h1>selfcare</h1></div>
-      <nav class="navigation">
+      <div class="header-logo">
+        <img src="./app/assets/icons/logo.svg" alt="SelfCare" />
+      </div>
+      <nav class="header-nav">
         <ul>
-          <li>Search</li>
-          <li>Login</li>
-          <li>Cart</li>
+          <li>
+            <a href="#"><img src="./app/assets/icons/search.svg" alt="Search" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./app/assets/icons/login.svg" alt="Login" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./app/assets/icons/cart.svg" alt="Cart" /></a>
+          </li>
         </ul>
       </nav>
     </header>
     <section class="banner">
-      <img src="assets/banner.png" alt="Banner SelfCare" />
+      <img src="./app/assets/banner.png" alt="SelfCare Banner" />
     </section>
     <section class="products">
       <div class="products-header">
         <div class="products-info">
-          <h1>Promoção</h1>
+          <h2>Promoção</h2>
           <p>9 produtos</p>
         </div>
       </div>
       <div class="products-list">
         <div class="products-item">
-          <img src="assets/pharma-hemp-complex-yVAXSK6zFIM-unsplash.jpg" alt="Produto 1" />
+          <img
+            src="./app/assets/products/pharma-hemp-complex-yVAXSK6zFIM-unsplash.jpg"
+            alt="Produto 1"
+          />
           <p>Lorem ipsum dolor sit</p>
-          <div class="price">R$ <span>50, 00</span></div>
+          <div class="products-price">R$ <span>50, 00</span></div>
         </div>
         <div class="products-item">
-          <img src="assets/devin-avery-bMH8ub9z1_U-unsplash.jpg" alt="Produto 2" />
+          <img src="./app/assets/products/devin-avery-bMH8ub9z1_U-unsplash.jpg" alt="Produto 2" />
           <p>Lorem ipsum dolor sit</p>
-          <div class="price">R$ <span>50, 00</span></div>
+          <div class="products-price">R$ <span>50, 00</span></div>
         </div>
         <div class="products-item">
-          <img src="assets/devin-avery-BRVqq2uak4E-unsplash.jpg" alt="Produto 3" />
+          <img src="./app/assets/products/devin-avery-BRVqq2uak4E-unsplash.jpg" alt="Produto 3" />
           <p>Lorem ipsum dolor sit</p>
-          <div class="price">R$ <span>50, 00</span></div>
+          <div class="products-price">R$ <span>50, 00</span></div>
         </div>
         <div class="products-item">
-          <img src="assets/gabrielle-henderson-1DMNn6gBbwQ-unsplash.jpg" alt="Produto 4" />
+          <img
+            src="./app/assets/products/gabrielle-henderson-1DMNn6gBbwQ-unsplash.jpg"
+            alt="Produto 4"
+          />
           <p>Lorem ipsum dolor sit</p>
-          <div class="price">R$ <span>50, 00</span></div>
+          <div class="products-price">R$ <span>50, 00</span></div>
         </div>
         <div class="products-item">
-          <img src="assets/nery-montenegro-SmEty_TVr80-unsplash.jpg" alt="Produto 5" />
+          <img
+            src="./app/assets/products/nery-montenegro-SmEty_TVr80-unsplash.jpg"
+            alt="Produto 5"
+          />
           <p>Lorem ipsum dolor sit</p>
-          <div class="price">R$ <span>50, 00</span></div>
+          <div class="products-price">R$ <span>50, 00</span></div>
         </div>
         <div class="products-item">
-          <img src="assets/olena-sergienko-GOVTETevRm8-unsplash.jpg" alt="Produto 6" />
+          <img
+            src="./app/assets/products/olena-sergienko-GOVTETevRm8-unsplash.jpg"
+            alt="Produto 6"
+          />
           <p>Lorem ipsum dolor sit</p>
-          <div class="price">R$ <span>50, 00</span></div>
+          <div class="products-price">R$ <span>50, 00</span></div>
         </div>
         <div class="products-item">
-          <img src="assets/phaedra-botanicals-uFAHrKYkTVI-unsplash.jpg" alt="Produto 7" />
+          <img
+            src="./app/assets/products/phaedra-botanicals-uFAHrKYkTVI-unsplash.jpg"
+            alt="Produto 7"
+          />
           <p>Lorem ipsum dolor sit</p>
-          <div class="price">R$ <span>50, 00</span></div>
+          <div class="products-price">R$ <span>50, 00</span></div>
         </div>
         <div class="products-item">
-          <img src="assets/pharma-hemp-complex-tAzdKblAinw-unsplash.jpg" alt="Produto 8" />
+          <img
+            src="./app/assets/products/pharma-hemp-complex-tAzdKblAinw-unsplash.jpg"
+            alt="Produto 8"
+          />
           <p>Lorem ipsum dolor sit</p>
-          <div class="price">R$ <span>50, 00</span></div>
+          <div class="products-price">R$ <span>50, 00</span></div>
         </div>
         <div class="products-item">
-          <img src="assets/chandra-oh-y5hRv6UNKMg-unsplash.jpg" alt="Produto 9" />
+          <img src="./app/assets/products/chandra-oh-y5hRv6UNKMg-unsplash.jpg" alt="Produto 9" />
           <p>Lorem ipsum dolor sit</p>
-          <div class="price">R$ <span>50, 00</span></div>
+          <div class="products-price">R$ <span>50, 00</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter">
+      <div class="newsletter-links">
+        <ul>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Termos de serviço</a></li>
+          <li><a href="#">Política de privacidade</a></li>
+          <li><a href="#">Cancelamento, troca e reembolso</a></li>
+        </ul>
+      </div>
+      <div class="newsletter-form">
+        <label for="input">Newsletter</label>
+        <div class="newsletter-input-group">
+          <input type="text" id="input" placeholder="Digite seu melhor e-mail" />
+          <button class="btn">Inscrever</button>
         </div>
       </div>
     </section>
     <footer class="footer">
-      <div class="footer-info">
-        <div class="footer-links">
-          <ul>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Termos de serviço</a></li>
-            <li><a href="#">Política de privacidade</a></li>
-            <li><a href="#">Cancelamento, troca e reembolso</a></li>
-          </ul>
-        </div>
-        <div class="newsletter">
-          <h3>Newsletter</h3>
-          <input type="text" placeholder="Digite seu melhor e-mail" />
-          <button class="btn">Inscrever</button>
-        </div>
-      </div>
-    </footer>
-    <div class="footer-extra">
       <div class="social">
         <ul>
-          <li>Instagram</li>
-          <li>Facebook</li>
+          <li>
+            <a href="#"><img src="./app/assets/icons/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./app/assets/icons/facebook.svg" alt="Facebook" /></a>
+          </li>
         </ul>
       </div>
       <div class="pagamento">
         <ul>
-          <li>MasterCard</li>
-          <li>PayPal</li>
-          <li>Vista</li>
+          <li>
+            <a href="#"><img src="./app/assets/icons/mastercard.svg" alt="Mastercard" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./app/assets/icons/paypal.svg" alt="Paypal" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./app/assets/icons/visa.svg" alt="Visa" /></a>
+          </li>
         </ul>
       </div>
-    </div>
+    </footer>
+    <!-- JavaScript File -->
+    <script src="./app/js/scripts.js"></script>
   </body>
 </html>

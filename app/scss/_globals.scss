@@ -1,0 +1,53 @@
+// Reset
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  overflow-x: hidden;
+  color: $darkText;
+  font-weight: 400;
+  font-family: $mainFont;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}

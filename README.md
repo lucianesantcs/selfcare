@@ -6,7 +6,3 @@
   <a href="https://devchallenge.now.sh/detail/5f14fad2130a5d78f89d9642">DevChallenge</a> · 
 Desafio por <a href="https://github.com/thaysagomes/selfcare">Thaysa Gomes</a>
 </p>
-
-## To-do
-- [ ] Parte responsiva
-- [ ] Adicionar icons

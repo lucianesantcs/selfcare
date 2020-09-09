@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+
+  ul li {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+
+  img {
+    width: 25px;
+  }
+
+  .pagamento {
+    ul li {
+      vertical-align: middle;
+      &:nth-child(2) {
+        img {
+          width: 20px;
+        }
+      }
+    }
+
+    img {
+      width: 30px;
+    }
+  }
+}
+
+@include breakpoint-up(medium) {
+  .footer {
+    img {
+      width: 30px;
+    }
+
+    .pagamento {
+      ul li {
+        vertical-align: middle;
+        &:nth-child(2) {
+          img {
+            width: 30px;
+          }
+        }
+      }
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+}
