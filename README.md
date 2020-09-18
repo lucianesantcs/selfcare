@@ -1,4 +1,4 @@
-![banner](https://raw.githubusercontent.com/lucianesantcs/selfcare/master/design/mockup.png)
+![banner](https://raw.githubusercontent.com/lucianesantcs/selfcare/master/design/selfcare_mockup.png)
 
 # SelfCare
 
