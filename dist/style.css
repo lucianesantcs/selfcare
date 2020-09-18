@@ -158,6 +158,16 @@ img {
   width: 135px;
   height: 135px;
   border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.products-item img:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
 }
 
 .products-item p {
@@ -234,6 +244,12 @@ img {
 }
 
 .newsletter {
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  background-color: #f9f9f9;
+}
+
+.newsletter-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -243,14 +259,20 @@ img {
           flex-direction: column;
   padding: 25px;
   margin-top: 35px;
-  border-top: 1px solid #ededed;
-  border-bottom: 1px solid #ededed;
 }
 
 .newsletter-links a {
   color: #161616;
   font-weight: 700;
   font-size: 1.3rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.newsletter-links a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #5ca720;
 }
 
 .newsletter-links ul li {
@@ -312,10 +334,21 @@ img {
   color: #ffffff;
   cursor: pointer;
   border: 1px solid #5ca720;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.newsletter-input-group .btn:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #4d891b;
 }
 
 @media (min-width: 768px) {
-  .newsletter {
+  .newsletter-content {
+    max-width: 1300px;
+    padding: 25px 30px;
+    margin: 0 auto;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -326,9 +359,6 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    max-width: 1300px;
-    padding: 25px 30px;
-    margin: 0 auto;
   }
   .newsletter-input-group {
     display: -webkit-box;
@@ -379,6 +409,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
   padding: 25px;
+  max-width: 1300px;
+  padding: 25px 30px;
+  margin: 0 auto;
 }
 
 .footer ul li {

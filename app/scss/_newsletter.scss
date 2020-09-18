@@ -1,16 +1,24 @@
 .newsletter {
-  display: flex;
-  flex-direction: column;
-  padding: 25px;
-  margin-top: 35px;
   border-top: 1px solid $border;
   border-bottom: 1px solid $border;
+  background-color: $lightBg;
+  &-content {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-top: 35px;
+  }
 
   &-links {
     a {
       color: $darkText;
       font-weight: 700;
       font-size: 1.3rem;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        transition: all 0.3s ease-in-out;
+        color: $accent;
+      }
     }
 
     ul li {
@@ -58,19 +66,25 @@
       color: $light;
       cursor: pointer;
       border: 1px solid $accent;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        transition: all 0.3s ease-in-out;
+        background-color: $darkAccent;
+      }
     }
   }
 }
 
 @include breakpoint-up(medium) {
   .newsletter {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1300px;
-    padding: 25px 30px;
-    margin: 0 auto;
-
+    &-content {
+      max-width: 1300px;
+      padding: 25px 30px;
+      margin: 0 auto;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
     &-input-group {
       display: flex;
       flex-direction: row;
