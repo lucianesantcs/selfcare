@@ -1,8 +1,28 @@
-<h3 align="center"><a href="https://lucianesantcs.github.io/selfcare/">selfcare</a></h3>
-<p align="center">
-  Loja online de produtos de beleza
-</p>
-<p align="center">
-  <a href="https://devchallenge.now.sh/detail/5f14fad2130a5d78f89d9642">DevChallenge</a> · 
-Desafio por <a href="https://github.com/thaysagomes/selfcare">Thaysa Gomes</a>
-</p>
+![banner](https://raw.githubusercontent.com/lucianesantcs/selfcare/master/design/mockup.png)
+
+# SelfCare
+
+Simples página de exibição de produtos de uma loja online.
+<br>
+<a href="https://lucianesantcs.github.io/selfcare/">Live Preview</a>
+### DevChallenge
+Desafio de Front-End proposto pelo Dev Challenge, site para desenvolvedores melhorarem suas habilidades.
+- <a href="https://devchallenge.com.br/detail/5f14fad2130a5d78f89d9642">DevChallenge</a>
+- Desafio por <a href="https://github.com/thaysagomes/selfcare">Thaysa Gomes</a>
+
+### Techs
+- HTML5
+- CSS
+- Sass
+
+### Author
+
+**Luciane Santos**
+
+- Email: lucianesantcs@gmail.com
+- GitHub: [@lucianesantcs](https://github.com/lucianesantcs)
+- LinkedIn: [@lucianesantcs](https://linkedin.com/in/lucianesantcs)
+
+### License
+
+Copyright © 2020 Luciane Santos / DevChallenge
